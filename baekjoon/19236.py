@@ -23,7 +23,6 @@ def dfs(x, y):
         nx, ny = x+dx[direc], y+dy[direc]
         for _ in range(8):
             if nx in range(16) and ny in range(16) and (nx, ny) != coord[0]:
-
                 break
             direc = (direc+1)%8
 
